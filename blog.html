@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>My Blog</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+    }
+    img {
+      max-width: 100%;
+      height: auto;
+    }
+    .hide-on-mobile {
+      display: block;
+    }
+    @media (max-width: 600px) {
+      .hide-on-mobile {
+        display: none;
+      }
+    }
+    @media print {
+      body {
+        color: black;
+        background: white;
+      }
+    }
+  </style>
+</head>
+<body>
+  <h1>My First Blog Post</h1>
+  <p>Today I went to the park. I felt very relaxed.</p>
+  <img src="pexels-leah-newhouse-50725-325521.jpg" alt="Park">
+  <a href="https://www.pexels.com/zh-cn/photo/325521/">Photo by Leah Newhouse</a>
+  <p>When I got home I listened to music and finished my homework. I think I will go again next week.</p>
+  <div class="hide-on-mobile">....</div>
+</body>
+</html>
